@@ -4,7 +4,7 @@ import java.util.function.IntFunction;
 
 public class Main
 {
-    private static void DisplayFactorials(String title, IntFunction<Long> factorial)
+    private static void displayFactorials(String title, IntFunction<Long> factorial)
     {
         System.out.println(title + ":");
 
@@ -18,9 +18,9 @@ public class Main
 
     public static void main(String[] args)
     {
-        DisplayFactorials("For loop", Factorial::factorialUsingForLoop);
-        DisplayFactorials("While loop", Factorial::factorialUsingWhileLoop);
-        DisplayFactorials("Recursion", Factorial::factorialUsingRecursion);
-        DisplayFactorials("Tail recursion", Factorial::factorialUsingTailRecursion);
+        displayFactorials("For loop", Factorial::factorialUsingForLoop);
+        displayFactorials("While loop", Factorial::factorialUsingWhileLoop);
+        displayFactorials("Recursion", Factorial::factorialUsingRecursion);
+        displayFactorials("Tail recursion", Factorial::factorialUsingTailRecursion);
     }
 }

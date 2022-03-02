@@ -5,7 +5,7 @@ public class Factorial
     /**
      * Calculate the factorial of a given number using for loop
      *
-     * @param n
+     * @param n The number
      * @return The factorial of n
      */
     public static long factorialUsingForLoop(int n)
@@ -23,7 +23,7 @@ public class Factorial
     /**
      * Calculate the factorial of a given number using while loop
      *
-     * @param n
+     * @param n The number
      * @return The factorial of n
      */
     public static long factorialUsingWhileLoop(int n)
@@ -41,7 +41,7 @@ public class Factorial
     /**
      * Calculate the factorial of a given number using recursion
      *
-     * @param n
+     * @param n The number
      * @return The factorial of n
      */
     public static long factorialUsingRecursion(int n)
@@ -57,8 +57,8 @@ public class Factorial
     /**
      * Calculate the factorial of a given number using tail recursion
      *
-     * @param n
-     * @param acc
+     * @param n The number
+     * @param acc Accumulator
      * @return The factorial of n
      */
     private static long factorialUsingTailRecursion(int n, int acc)
@@ -74,7 +74,7 @@ public class Factorial
     /**
      * Calculate the factorial of a given number with tail recursion
      *
-     * @param n
+     * @param n The number
      * @return The factorial of n
      */
     public static long factorialUsingTailRecursion(int n)
